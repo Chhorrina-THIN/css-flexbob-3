@@ -1,0 +1,92 @@
+body{
+    margin: 0px;
+}
+header{
+    background-color: aqua;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #ffff;
+}
+main{
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.contain-1{
+    display: flex;
+    gap: 10px;
+}
+.hero-sidear{
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    gap: 15px;
+}
+.hero{
+    background-color: rgb(235, 146, 235);
+    color: #ffff;
+    display: flex;
+    flex: 1;
+    justify-content: center;
+
+}
+.sidebar{
+    background-color: rgb(112, 179, 112);
+    color: #ffff;
+    display: flex;
+    flex: 1;
+    justify-content: center;
+
+}
+.me-conent{
+    display: flex;
+    flex: 2;
+    flex-direction: column;
+    gap: 15px;
+}
+.main-content{
+    background-color: orange;
+    color: #ffff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 300px;
+}
+
+.extra-content{
+    background-color: gray;
+    color: #ffff;
+    display: flex;
+    justify-content: center;
+    height: 150px;
+}
+.contain-2{
+    display: flex;
+    gap: 10px;
+    margin-top: 15px;
+    color: #ffff;
+    justify-content: space-between;
+}
+.container-1{
+    background-color: rgb(67, 165, 124);
+    flex: 2;
+    display: flex;
+    justify-content: center;
+    height: 150px;
+}
+.container-2{
+    background-color: lightpink;
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    height: 150px;
+}
+footer{
+    background-color: orange;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #ffff;
+}
